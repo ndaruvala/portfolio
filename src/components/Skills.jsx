@@ -1,13 +1,10 @@
 import React from "react";
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JavaScript from "../assets/javascript.png";
+import HTMLImg from "../assets/html.png";
+import CSSImg from "../assets/css.png";
 import ReactImg from "../assets/react.png";
-import Node from "../assets/node.png";
-// import FireBase from '../assets/firebase.png';
-import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
-import Mongo from "../assets/mongo.png";
+import PythonImg from '../assets/python.png'
+import CPPImg from '../assets/cpp.png'
+import JavaImg from '../assets/java.png'
 
 const Skills = () => {
   return (
@@ -20,23 +17,23 @@ const Skills = () => {
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 py-2 mx-auto" src={HTML} alt="Python icon" />
+            <img className="w-20 py-2 mx-auto" src={PythonImg} alt="Python icon" />
             <p className="my-4">Python</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 py-2 mx-auto" src={HTML} alt="C/C++ icon" />
+            <img className="w-20 py-2 mx-auto" src={CPPImg} alt="C/C++ icon" />
             <p className="my-4">C/C++</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 py-2 mx-auto" src={HTML} alt="Java icon" />
+            <img className="w-20 py-2 mx-auto" src={JavaImg} alt="Java icon" />
             <p className="my-4">Java</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 py-2 mx-auto" src={HTML} alt="HTML icon" />
+            <img className="w-20 py-2 mx-auto" src={HTMLImg} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 py-2 mx-auto" src={CSS} alt="CSS icon" />
+            <img className="w-20 py-2 mx-auto" src={CSSImg} alt="CSS icon" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
